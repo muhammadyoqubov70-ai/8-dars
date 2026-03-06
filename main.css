@@ -78,11 +78,11 @@
 }
 .buton1:hover {
   transform: translateY(-2px);
-  -webkit-box-shadow: -1px 5px 13px -4px rgba(34, 60, 80, 0.71);
+  box-shadow: -1px 5px 13px -4px rgba(34, 60, 80, 0.71);
 }
 .buton2:hover {
   transform: translateY(-2px);
-  -webkit-box-shadow: -1px 5px 13px -4px rgba(31, 49, 63, 0.71);
+  box-shadow: -1px 5px 13px -4px rgba(31, 49, 63, 0.71);
 }
 button {
   color: white;
@@ -156,7 +156,7 @@ button {
 .main-1:hover {
   transition: 0.3s;
   transform: translateY(-4px);
-  -webkit-box-shadow: -1px 5px 13px -4px rgba(34, 60, 80, 0.71);
+  box-shadow: -1px 5px 13px -4px rgba(34, 60, 80, 0.71);
 }
 .main-1 {
   width: 384px;
@@ -182,4 +182,78 @@ button {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+}
+.img-vertu {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  width: 382px;
+  border: 1px solid gray;
+  margin-bottom: 129px;
+  transition:
+    transform 0.3s linear,
+    box-shadow 0.3s linear;
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    padding-bottom: 8px;
+  }
+}
+.img-vertu img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img-vertu:hover {
+  transform: translateY(-7px);
+  box-shadow: -1px 18px 12px 0px rgba(34, 60, 80, 0.2);
+}
+.img-vertu:hover img {
+  transform: scale(1.04);
+}
+.samp {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6b7280;
+  padding-bottom: 16px;
+}
+
+.vertu10 {
+  color: #4346ef;
+}
+.img-vertu2 {
+  padding: 24px;
+}
+
+.img-vertu3 {
+  color: #6b7280;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  i {
+    padding-right: 5px;
+  }
+}
+.fa-arrow-right {
+  color: #4346ef;
+  width: 16px;
+  height: 16px;
+}
+.texno {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 9999px;
+  padding: 2px 10px;
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  color: white;
+  background-color: #4346ef;
 }
