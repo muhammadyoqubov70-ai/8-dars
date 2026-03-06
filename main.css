@@ -188,7 +188,7 @@ button {
   overflow: hidden;
   border-radius: 14px;
   width: 382px;
-  border: 1px solid gray;
+  border: 1px solid rgb(228, 226, 226);
   margin-bottom: 129px;
   transition:
     transform 0.3s linear,
@@ -236,9 +236,6 @@ button {
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 12px;
-  i {
-    padding-right: 5px;
-  }
 }
 .fa-arrow-right {
   color: #4346ef;
@@ -256,4 +253,80 @@ button {
   left: 16px;
   color: white;
   background-color: #4346ef;
+}
+.img-vertu i {
+  padding-left: 10px;
+
+  transition: transform 0.7s ease-out;
+}
+.img-vertu:hover i {
+  transition: transform 0.7s ease;
+  transform: translate(10px);
+}
+.img-vertu3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+.main-rog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vaas {
+  padding-top: 256px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+.verty {
+  h3 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+  }
+  p {
+    padding-top: 8px;
+
+    color: #6b7280;
+    line-height: 28px;
+    font-size: 18px;
+  }
+}
+.verty:hover p {
+  color: #4346ef;
+  transition: 0.1s;
+}
+
+.verty2 {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+  border: 1px solid rgb(209, 206, 206);
+  background-color: #ffffff;
+  padding: 11px 24px;
+  color: #0f1729;
+}
+.verty2:hover {
+  transform: translateY(-2px);
+  box-shadow: -1px 5px 13px -4px rgba(34, 60, 80, 0.71);
+}
+.verty2 i {
+  color: #0f1729;
+}
+.verty2 i {
+  padding-left: 3px;
+
+  transition: transform 0.7s ease-out;
+}
+
+.verty2:hover i {
+  transition: transform 0.7s ease;
+  transform: translate(5px);
 }
