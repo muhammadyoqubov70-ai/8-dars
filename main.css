@@ -330,3 +330,49 @@ button {
   transition: transform 0.7s ease;
   transform: translate(5px);
 }
+.fut {
+  padding-bottom: 10px;
+}
+.email {
+  width: 100%;
+
+  border: 1px solid rgb(233, 230, 230);
+}
+.futto {
+  margin-bottom: 32px;
+  margin-top: 48px;
+  display: flex;
+
+  justify-content: space-between;
+  h6 {
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f1729;
+  }
+  p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+.futo {
+  padding-bottom: 16px;
+  padding-bottom: 52px;
+}
+.futo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.futo3 {
+  h6 {
+    padding-bottom: 16px;
+  }
+}
+.futo3 i {
+  width: 25px;
+  height: 25px;
+  color: #6b7280;
+}
