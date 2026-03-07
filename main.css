@@ -18,6 +18,7 @@
     text-decoration: none;
   }
 }
+
 .nav-as {
   display: flex;
   justify-content: center;
@@ -39,11 +40,12 @@
 .main-div {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 128px;
-  gap: 48px;
 }
-
+.main-div-text {
+  width: 50%;
+}
 .hero-main {
   background-image: linear-gradient(#f1f1fe, #f7f1fd);
 }
@@ -66,9 +68,9 @@
   font-weight: 400;
   color: #6b7280;
 }
+
 .rem1 {
-  width: 584px;
-  height: 328.5px;
+  width: 50%;
 }
 .buton1 {
   gap: 16px;
@@ -101,41 +103,20 @@ button {
 .fa-angle-right {
   padding-left: 8px;
 }
-@media (max-width: 1010px) {
-  .rem1 {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .nav-as {
-    display: none;
-  }
-}
 
-@media (max-width: 450px) {
-  .main-div {
-    width: 100%;
-    height: auto;
-  }
-  .hero-nav {
-    padding: 10px;
-  }
-  .nav-as {
-    display: none;
-  }
-  .icon-bar {
-    display: block;
-    padding: 10px;
-  }
-}
-.main-fast {
+
+
+
+.main-i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .main-textt {
   text-align: center;
+  padding-top: 0;
   h2 {
     font-size: 36px;
     font-weight: 700;
@@ -375,4 +356,92 @@ button {
   width: 25px;
   height: 25px;
   color: #6b7280;
+
+
 }
+
+ @media (max-width: 768px) {
+  .main-div {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+
+    img{
+      display: none;
+    }
+    h1 {
+      font-size: 36px;
+      line-height: 40px;
+      padding-bottom: 15px;
+    }
+    p {
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+    .butons {
+      display: flex;
+      gap: 30px;
+    }
+    .buton1 {
+     
+      padding: 16px 35px;
+    }
+    .buton2 {
+       margin-left: 20px;
+      padding: 16px 20px;
+    }
+  }
+  .nav-as {
+    display: none;
+  }
+  .icon-bar {
+    display: block;
+    padding: 30px;
+  }
+  .logo{
+    padding-left: 30px;
+  }
+.main-i{
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+.main-rog{
+  align-items: center;
+
+  justify-content: center;
+  display: flex;
+  
+  flex-wrap: wrap;
+
+  width: 100%
+}
+.vaas{
+  padding: 30px;
+}
+.futto{
+  flex-wrap: wrap;
+justify-content: start;
+  display:flex;
+  text-decoration: column;
+padding-left: 30px;
+}
+.img-vertu{
+  margin-bottom: 30px;
+}
+}
+/* @media (max-width: 430px) {
+  .butons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+} */ */ */
