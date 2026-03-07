@@ -8,12 +8,20 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+.hero-e {
+  background-color: rgb(184, 178, 178);
+}
 .hero-nav {
+  width: 100%;
+  max-width: 1280px;
+
   padding-top: 18px;
   padding-bottom: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 222;
+  position: fixed;
   a {
     text-decoration: none;
   }
@@ -103,9 +111,6 @@ button {
 .fa-angle-right {
   padding-left: 8px;
 }
-
-
-
 
 .main-i {
   display: flex;
@@ -356,11 +361,9 @@ button {
   width: 25px;
   height: 25px;
   color: #6b7280;
-
-
 }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .main-div {
     width: 100%;
     padding: 0px;
@@ -369,7 +372,7 @@ button {
     justify-content: center;
     padding: 80px 20px;
 
-    img{
+    img {
       display: none;
     }
     h1 {
@@ -386,11 +389,10 @@ button {
       gap: 30px;
     }
     .buton1 {
-     
       padding: 16px 35px;
     }
     .buton2 {
-       margin-left: 20px;
+      margin-left: 20px;
       padding: 16px 20px;
     }
   }
@@ -401,47 +403,40 @@ button {
     display: block;
     padding: 30px;
   }
-  .logo{
+  .logo {
     padding-left: 30px;
   }
-.main-i{
-  align-items: center;
-  gap: 30px;
-  justify-content: center;
-  display: flex;
-  padding: 10px;
-  flex-wrap: wrap;
-
-  width: 100%;
-}
-.main-rog{
-  align-items: center;
-
-  justify-content: center;
-  display: flex;
-  
-  flex-wrap: wrap;
-
-  width: 100%
-}
-.vaas{
-  padding: 30px;
-}
-.futto{
-  flex-wrap: wrap;
-justify-content: start;
-  display:flex;
-  text-decoration: column;
-padding-left: 30px;
-}
-.img-vertu{
-  margin-bottom: 30px;
-}
-}
-/* @media (max-width: 430px) {
-  .butons {
+  .main-i {
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    padding: 10px;
+    flex-wrap: wrap;
+
+    width: 100%;
   }
-} */ */ */
+  .main-rog {
+    align-items: center;
+
+    justify-content: center;
+    display: flex;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+  .vaas {
+    padding: 30px;
+  }
+  .futto {
+    flex-wrap: wrap;
+    justify-content: start;
+    display: flex;
+    text-decoration: column;
+    padding-left: 30px;
+  }
+  .img-vertu {
+    margin-bottom: 30px;
+  }
+}
